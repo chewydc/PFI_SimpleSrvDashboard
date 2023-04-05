@@ -1,0 +1,40 @@
+<h1 >
+    <center><img src="/images/logouade.jpeg" width="220" alt="">
+        <span>PROYECTO FINAL DE INGENIERÍA</span>
+    </center>
+</h1>
+<hr></hr>
+<h2 style="color: rgb(34, 23, 78);">
+    <center>Diseño y Simulación de una Red de Sensores Inalámbricos basados en tecnología de largo alcance</center>
+</h2>
+
+
+<br>
+{{#if mensajes}} 
+    <div style="table-layout: fixed; display: inline-table; width: 100%;">
+        <table class="table table-dark table-scroll table-fixed table-hover">
+            <thead>
+                <tr style="color: yellow;">
+                    <th>Nodo Origen</th>
+                    <th>Dato</th>
+                    <th>Nodo Destino</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody >
+                <div  >
+                {{#each mensajes}}
+                <tr>
+                    <td>{{this.nodoOrigen}}</td>
+                    <td>{{this.dato}}</td>
+                    <td>{{this.nodoDestino}}</td>
+                    <td>{{this.fecha}}</td>
+                </tr>
+                {{/each}}
+                </div>
+            </tbody>
+        </table>
+    </div>
+{{else}}  
+    <h3 class="alert alert-danger">Esperando la recepción de datos...</h3>
+{{/if}}
