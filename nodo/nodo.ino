@@ -22,15 +22,13 @@
   #define MAXCOUNTER 1000  // Max value for the Hello Message ID
   
   //Wifi config
-  const char* wifi_ssid = "Speedy-Fibra-Home";
-  const char* wifi_password =  "Paulo2019";
-  //const char* wifi_ssid = "Chewy-Fi 2.4GHz";
-  //const char* wifi_password =  "d3lc4mp0";
+  const char* wifi_ssid = "WIFI_SSID";
+  const char* wifi_password =  "WIFI_PASS";
   
   //MQTT config
-  const char* mqtt_server = "broker.hivemq.com";
+  const char* mqtt_server = "MQTT_BROKER";
   const int mqtt_port = 1883;
-  const char* dataTopic = "mesh_gateway/data";
+  const char* dataTopic = "TEST_TOPIC";
   
   // Heltec PINs
   #define LLG_CS  18

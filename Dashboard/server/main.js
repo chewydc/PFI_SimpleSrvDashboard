@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }))
 
 import mqtt from 'mqtt'
 const options = {
-        host: 'broker.hivemq.com',
+        host: 'MQTT_BROKER', //Define the host broker of your choice.
         port: 1883,
 }
 
@@ -50,7 +50,7 @@ client.on('message', function (topic, message) {
     console.log(newElem)
     io.sockets.emit('updateMsj')
 });
-client.subscribe('mesh_gateway/data');
+client.subscribe('TEST_TOPIC'); //Define the topic of your choice.
 
 //-------------------------------------------------------------------
 //Websockets handles
