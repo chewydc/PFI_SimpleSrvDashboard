@@ -57,4 +57,8 @@ $ npm install
 $ npm start
 ```
 
+<p align="center">
+     <img src="https://github.com/chewydc/PFI_UADE/blob/0e049c8f780b1a15803f6cb1f22194f76736c32b/img/Modules.JPG">
+</p>
+
 ***
