@@ -46,7 +46,10 @@ Simple Server for a Dashboard. It's shows MQTT incoming messages.
 
 <a name="Installation"></a>
 ## Installation
- 
+For the deployment of the solution, you only have to upload the node code to each device taking into account the previously assigned node ID. 
+You must also configure in both codes the MQTT Brocker and Topic to use.
+
+To deploy the dashboard, follow the instructions below:
 ```
 $ git clone https://github.com/chewydc/PFI_UADE.git
 $ cd Dashboard
