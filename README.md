@@ -15,7 +15,7 @@ The authors of the work and the following code are:
 1. [Objective](#Objective)
 2. [Arduino Node algorithm](#Arduino-Node-algorithm) 
 3. [Simple Server Dashboard](#Simple-Server-Dashboard)
-4. [Install](#Install)
+4. [Installation](#Installation)
 
 <a name="Objective"></a>
 ## Objective
@@ -31,12 +31,20 @@ It was designed to work with two modules:
  - Arduino UNO + Lora Shield transceiver
  - Heltec ESP32 LoRa Wifi v2
 
+<p align="center">
+     <img src="https://github.com/chewydc/PFI_UADE/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Layout.JPG">
+</p>
+
 <a name="Simple-Server-Dashboard"></a>
 ## Simple Server Dashboard
 Simple Server for a Dashboard. It's shows MQTT incoming messages.
 
-<a name="Install"></a>
-## Install
+<p align="center">
+     <img src="https://github.com/chewydc/PFI_UADE/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Dashboard.JPG">
+</p>
+
+<a name="Installation"></a>
+## Installation
  
 ```
 $ git clone https://github.com/chewydc/PFI_UADE.git
@@ -44,4 +52,3 @@ $ cd Dashboard
 $ npm install
 $ npm start
 ```
-
