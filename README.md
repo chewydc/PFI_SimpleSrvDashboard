@@ -8,7 +8,7 @@ This code is part of the final engineering project to obtain the degree of telec
 The authors of the work and the following code are:
 
  - Damian del Campo
- - Jonathan Salini
+ - Jonatan Salini
 
 ***
 ## Table of Contents
@@ -31,6 +31,7 @@ It was designed to work with two modules:
  - Arduino UNO + Lora Shield transceiver
  - Heltec ESP32 LoRa Wifi v2
 
+
 <p align="center">
      <img src="https://github.com/chewydc/PFI_UADE/blob/556ff3eec2be77469075e509a350a82d2f04a344/img/Layout.JPG">
 </p>
@@ -52,3 +53,5 @@ $ cd Dashboard
 $ npm install
 $ npm start
 ```
+
+***
