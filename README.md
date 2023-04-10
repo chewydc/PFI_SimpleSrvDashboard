@@ -32,7 +32,7 @@ It was designed to work with two modules:
  - Heltec ESP32 LoRa Wifi v2
 
 <p align="center">
-     <img src="https://github.com/chewydc/PFI_UADE/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Layout.JPG">
+     <img src="https://github.com/chewydc/PFI_UADE/blob/556ff3eec2be77469075e509a350a82d2f04a344/img/Layout.JPG">
 </p>
 
 <a name="Simple-Server-Dashboard"></a>
@@ -40,7 +40,7 @@ It was designed to work with two modules:
 Simple Server for a Dashboard. It's shows MQTT incoming messages.
 
 <p align="center">
-     <img src="https://github.com/chewydc/PFI_UADE/blob/438543af1046d15403a99fc9905ff69390ced2fc/img/Dashboard.JPG">
+     <img src="https://github.com/chewydc/PFI_UADE/blob/556ff3eec2be77469075e509a350a82d2f04a344/img/Dashboard.JPG">
 </p>
 
 <a name="Installation"></a>
