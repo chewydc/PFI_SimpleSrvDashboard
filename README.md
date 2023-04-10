@@ -1,8 +1,45 @@
 # PFI UADE
 
-Simple lora mesh network, with arduino uno and esp32 modules. Publishes the information collected by the nodes on a dashboard via MQTT events.
+***
+## About
+This code is part of the final engineering project to obtain the degree of telecommunications engineer at UADE.
+The authors of the work and the following code are:
 
+ - Damian del Campo
+ - Jonathan Salini
+
+***
+## Table of Contents
+1. [Objective](#Objective)
+2. [Arduino Node algorithm](#Arduino-Node-algorithm) 
+3. [Simple Server Dashboard](#Simple-Server-Dashboard)
+4. [Install](#Install)
+
+<a name="Objective"></a>
+## Objective
+Create a simple lora mesh network based on the open source RadioHead library, with arduino uno and esp32 modules equipped with LoRa tranceivers. Publishes the information collected by the nodes on a web dashboard via MQTT events.
+
+<a name="Arduino-Node-algorithm"></a>
+## Arduino Node algorithm
+This program should set up a LoRa mesh network. Depending on its node ID, it will wait for incoming LoRa messages and reply an ACK message to the sender.
+If the node ID is #1, it also relays the message via MQTT events to a public cloud broker. All other nodes will send hello messages to the other nodes on the network waiting for the ACK.
+If any node is out of coverage, the entire network is in charge of rerouting the routes so that the messages continue to reach their destination.
+
+It was designed to work with two modules:
+ - Arduino UNO + Lora Shield transceiver
+ - Heltec ESP32 LoRa Wifi v2
+
+<a name="Simple-Server-Dashboard"></a>
 ## Simple Server Dashboard
-Simple Server Dashboard for MQTT and LoRa messages Project.
+Simple Server for a Dashboard. It's shows MQTT incoming messages.
 
-## Node Sensor
+<a name="Install"></a>
+## Install
+ 
+```
+$ git clone https://github.com/chewydc/PFI_UADE.git
+$ cd Dashboard
+$ npm install
+$ npm start
+```
+
