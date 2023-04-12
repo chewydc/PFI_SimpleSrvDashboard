@@ -52,6 +52,7 @@ You must also configure in both codes the MQTT Brocker and Topic to use.
 To deploy the dashboard, follow the instructions below:
 ```
 $ git clone https://github.com/chewydc/PFI_UADE.git
+$ cd PFI_UADE
 $ cd Dashboard
 $ npm install
 $ npm start
