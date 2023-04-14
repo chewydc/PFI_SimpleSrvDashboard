@@ -9,7 +9,7 @@
     "start": "node ./server/main.js"
   },
   "author": "Damian del Campo y Jonatan Salini",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "mqtt": "^4.3.7",
