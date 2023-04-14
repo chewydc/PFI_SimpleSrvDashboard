@@ -16,6 +16,8 @@ The authors of the work and the following code are:
 2. [Arduino Node algorithm](#Arduino-Node-algorithm) 
 3. [Simple Server Dashboard](#Simple-Server-Dashboard)
 4. [Installation](#Installation)
+5. [Contributing](#Contributing)
+6. [License](#License)
 
 <a name="Objective"></a>
 ## Objective
@@ -62,4 +64,17 @@ $ npm start
      <img src="https://github.com/chewydc/PFI_UADE/blob/0e049c8f780b1a15803f6cb1f22194f76736c32b/img/Modules.JPG">
 </p>
 
+<a name="Contributing"></a>
+## Contributing
+Contributions are welcome! If you want to contribute to this project, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/my-new-feature`)
+3. Make your changes and commit them (`git commit -am 'Add some feature'`)
+4. Push your changes to your forked repository (`git push origin feature/my-new-feature`)
+5. Create a new pull request
+
+<a name="License"></a>
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 ***
