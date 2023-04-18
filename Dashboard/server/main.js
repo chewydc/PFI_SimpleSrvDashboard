@@ -2,7 +2,7 @@
 // PROYECTO FINAL DE INGENIERIA                                                                      //
 // Diseño y Simulación de una Red de Sensores Inalámbricos basados en tecnología de largo alcance    //
 //                                                                                                   //
-// Alumnos:                                                                                          //
+// Autores:                                                                                          //
 //          - Damián del Campo                                                                       //
 //          - Jonatan Salini                                                                         //
 //                                                                                                   //
