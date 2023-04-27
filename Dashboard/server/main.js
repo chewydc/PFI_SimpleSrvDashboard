@@ -14,7 +14,7 @@ const app = express()
 const httpServer = new HttpServer(app)
 const io = new IOServer(httpServer)
 
-const SIZE = process.env.PORT || 5 //Size of the messages table displayed on the webapage
+const SIZE = process.env.SIZE || 5 //Size of the messages table displayed on the webapage
 
 let mensajes = []
 app.use(express.json())
