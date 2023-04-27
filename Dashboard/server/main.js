@@ -14,7 +14,7 @@ const app = express()
 const httpServer = new HttpServer(app)
 const io = new IOServer(httpServer)
 
-const SIZE=5 //Size of the messages table displayed on the webapage
+const SIZE = process.env.PORT || 5 //Size of the messages table displayed on the webapage
 
 let mensajes = []
 app.use(express.json())
@@ -68,20 +68,20 @@ app.get('/', (req, res) => {
 app.get('/mensajes', (req, res) => {
     res.json(mensajes)
 });
-/*
+/* 
+// POST feature to load some fake event and test the webpage
 app.post('/mensajes', (req, res) => {
     const time = new Date()
     const newElem = { ...req.body, fecha: time.toLocaleString() }  
-    mensajes.push(newElem)
+    mensajes.unshift(newElem)
+    if(mensajes.length>SIZE) mensajes.pop()
     console.log(newElem)
     io.sockets.emit('updateMsj')
-
-    //res.redirect("/")
     res.json('Dato Cargado OK')
 });
 */
 
-const PORT = 8080
+const PORT = process.env.PORT || 8080
 const server = httpServer.listen(PORT, () => {
     console.log(`Servidor escuchando en el puerto ${server.address().port}`)
 })
