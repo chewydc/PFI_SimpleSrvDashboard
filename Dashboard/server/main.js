@@ -79,6 +79,12 @@ app.post('/mensajes', (req, res) => {
     io.sockets.emit('updateMsj')
     res.json('Dato Cargado OK')
 });
+// JSON Body message example format
+// {
+//  "nodoOrigen":"3",
+//  "nodoDestino":"1",
+//  "dato":"Hello #4"
+//  }
 */
 
 const PORT = process.env.PORT || 8080
