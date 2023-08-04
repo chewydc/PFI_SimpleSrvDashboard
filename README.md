@@ -30,8 +30,8 @@ If the node ID is #1, it also relays the message via MQTT events to a public clo
 If any node is out of coverage, the entire network is in charge of rerouting the routes so that the messages continue to reach their destination.
 
 It was designed to work with two modules:
- - Arduino UNO + Lora Shield transceiver
- - Heltec ESP32 LoRa Wifi v2
+ - Arduino UNO + Lora Shield transceiver (https://docs.arduino.cc/hardware/uno-rev3 + https://emging.com.ar/producto/shield-emging-lora-v1-1-915mhz-rfm95w/)
+ - Heltec ESP32 LoRa Wifi v2 (https://heltec.org/project/wifi-lora-32/)
 
 
 <p align="center">
